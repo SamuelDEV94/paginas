@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: rgba(51, 77, 110, 1);
+
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background: #90A0B7;
+    border-radius: 4px;
+}
+
+.button1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFF2E7;
+    background: rgba(16, 156, 241, 1);
+    width: 160px;
+    height: 42px;
+   
+}
+
+.button2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFF2E7;
+    background: rgba(16, 156, 241, 1);
+    width: 160px;
+    height: 42px;
+    
+}
+
+
+.cabeçalho-imagem  {
+    height: 36px;
+}
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid;
+}
+
+.conteudo-principol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito-titulo {
+position: absolute;
+width: 735.38px;
+height: 210.07px;
+left: 74.89px;
+top: 188.39px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 100%;
+color: #FFF2E7;
+}
+
+.conteudo-escrito-subtitulo {
+position: absolute;
+width: 741.04px;
+height: 97.63px;
+left: 73px;
+top: 419.37px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 56px;
+color: #FFF2E7;
+}
+
+.retangulo1 {
+position: absolute;
+width: 544px;
+height: 392px;
+left: 876px;
+top: 229px;
+
+background: #109CF1;
+box-shadow: 0px 16px 56px rgba(23, 31, 70, 0.06);
+border-radius: 16px;
+}
+
+.retangulo2 {
+    position: absolute;
+width: 431px;
+height: 449px;
+left: 961px;
+top: 141px;
+
+background: #FFFFFF;
+box-shadow: 0px 16px 56px rgba(23, 31, 70, 0.06);
+border-radius: 16px;
+
+
+}
+
+
+
+
+
